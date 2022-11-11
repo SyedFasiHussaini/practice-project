@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Departure</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+
+  <link rel="stylesheet" type="text/css" href="departure.css" />
+  <style>
+          table,th,td {
+            border: 1px solid black;
+          }
+  </style>
+  <head>
+    <body>
+        <div class="blank"></div>
+        <table>
+            <colgroup>
+                <col span="6" style="background-color:lightblue">
+                <col style="background-color: rosybrown" >
+                <col span="4" style="background-color:lightblue">
+                <col style="height:50px;">
+                <!-- <col style="width: 50px"> -->
+
+            
+            </colgroup>
+            <tr col style="background-color:aqua"> 
+                <th>ID</th>
+                <th>Number</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Origin</th>
+                <th>Destination</th>
+                <th>Price</th>
+                <th>Capacity</th>
+                <th>Class</th>
+                <th>Available</th>
+                <th>Select</th>
+            </tr>
+            <tr>
+                <td>abcd</td>
+                <td>DL345</td>
+                <td>10/11/22</td>
+                <td>11:00AM</td>
+                <td>Hyderabad</td>
+                <td>Mumbai</td>
+                <td>1200$</td>
+                <td>40</td>
+                <td>
+                    <ul  style="width:200px">
+                        <li>first class</li>
+                        <li>Business class</li>
+                        <li>Economy class</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul  style="width:200px">
+                        <li>Yes</li>
+                        <li>No</li>
+                        <li>Yes</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul  style="width:80px" >
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- <tr> 
+                <th>ID</th>
+                <th>Number</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Origin</th>
+                <th>Destination</th>
+                <th>Price</th>
+                <th>Capacity</th>
+                <th>Class</th>
+                <th>Available</th>
+                <th>Select</th>
+            </tr> -->
+            <tr>
+                <td  style="width:100px">abcd</td>
+                <td  style="width:80px">DL345</td>
+                <td  style="width:80px">10/11/22</td>
+                <td  style="width:80px">11:00AM</td>
+                <td  style="width:80px">Hyderabad</td>
+                <td  style="width:80px">Mumbai</td>
+                <td  style="width:80px">1200$</td>
+                <td  style="width:80px">40</td>
+                <td>
+                    <ul>
+                        <li>first class</li>
+                        <li>Business class</li>
+                        <li>Economy class</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Yes</li>
+                        <li>No</li>
+                        <li>Yes</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- <tr> 
+                <th>ID</th>
+                <th>Number</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Origin</th>
+                <th>Destination</th>
+                <th>Price</th>
+                <th>Capacity</th>
+                <th>Class</th>
+                <th>Available</th>
+                <th>Select</th>
+            </tr> -->
+            <tr>
+                <td>abcd</td>
+                <td>DL345</td>
+                <td>10/11/22</td>
+                <td>11:00AM</td>
+                <td>Hyderabad</td>
+                <td>Mumbai</td>
+                <td>1200$</td>
+                <td>40</td>
+                <td>
+                    <ul>
+                        <li>first class</li>
+                        <li>Business class</li>
+                        <li>Economy class</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Yes</li>
+                        <li>No</li>
+                        <li>Yes</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- <tr> 
+                <th>ID</th>
+                <th>Number</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Origin</th>
+                <th>Destination</th>
+                <th>Price</th>
+                <th>Capacity</th>
+                <th>Class</th>
+                <th>Available</th>
+                <th>Select</th>
+            </tr> -->
+            <tr>
+                <td>abcd</td>
+                <td>DL345</td>
+                <td>10/11/22</td>
+                <td>11:00AM</td>
+                <td>Hyderabad</td>
+                <td>Mumbai</td>
+                <td>1200$</td>
+                <td>40</td>
+                <td>
+                    <ul>
+                        <li>first class</li>
+                        <li>Business class</li>
+                        <li>Economy class</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Yes</li>
+                        <li>No</li>
+                        <li>Yes</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- <tr> 
+                <th>ID</th>
+                <th>Number</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Origin</th>
+                <th>Destination</th>
+                <th>Price</th>
+                <th>Capacity</th>
+                <th>Class</th>
+                <th>Available</th>
+                <th>Select</th>
+            </tr> -->
+            <tr>
+                <td>abcd</td>
+                <td>DL345</td>
+                <td>10/11/22</td>
+                <td>11:00AM</td>
+                <td>Hyderabad</td>
+                <td>Mumbai</td>
+                <td>1200$</td>
+                <td>40</td>
+                <td>
+                    <ul>
+                        <li>first class</li>
+                        <li>Business class</li>
+                        <li>Economy class</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Yes</li>
+                        <li>No</li>
+                        <li>Yes</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- <tr> 
+                <th>ID</th>
+                <th>Number</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Origin</th>
+                <th>Destination</th>
+                <th>Price</th>
+                <th>Capacity</th>
+                <th>Class</th>
+                <th>Available</th>
+                <th>Select</th>
+            </tr> -->
+            <tr>
+                <td>abcd</td>
+                <td>DL345</td>
+                <td>10/11/22</td>
+                <td>11:00AM</td>
+                <td>Hyderabad</td>
+                <td>Mumbai</td>
+                <td>1200$</td>
+                <td>40</td>
+                <td>
+                    <ul>
+                        <li>first class</li>
+                        <li>Business class</li>
+                        <li>Economy class</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Yes</li>
+                        <li>No</li>
+                        <li>Yes</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- <tr> 
+                <th>ID</th>
+                <th>Number</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Origin</th>
+                <th>Destination</th>
+                <th>Price</th>
+                <th>Capacity</th>
+                <th>Class</th>
+                <th>Available</th>
+                <th>Select</th>
+            </tr> -->
+            <tr>
+                <td>abcd</td>
+                <td>DL345</td>
+                <td>10/11/22</td>
+                <td>11:00AM</td>
+                <td>Hyderabad</td>
+                <td>Mumbai</td>
+                <td>1200$</td>
+                <td>40</td>
+                <td>
+                    <ul>
+                        <li>first class</li>
+                        <li>Business class</li>
+                        <li>Economy class</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Yes</li>
+                        <li>No</li>
+                        <li>Yes</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                        <li><a href="#"><input type="checkbox" name="select" id="select"></a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </body>
+  </head>
+    </body>
+  </head>
+  </head>
